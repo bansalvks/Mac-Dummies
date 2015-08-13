@@ -12,8 +12,8 @@
 		040BC0C71B7C755F007E58B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040BC0C61B7C755F007E58B6 /* Images.xcassets */; };
 		040BC0CA1B7C755F007E58B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040BC0C81B7C755F007E58B6 /* MainMenu.xib */; };
 		040BC0D61B7C755F007E58B6 /* animationTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040BC0D51B7C755F007E58B6 /* animationTrialTests.m */; };
-		040BC0E01B7C75F2007E58B6 /* dial.png in Resources */ = {isa = PBXBuildFile; fileRef = 040BC0DF1B7C75F2007E58B6 /* dial.png */; };
 		040BC0E21B7C95A1007E58B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040BC0E11B7C95A1007E58B6 /* QuartzCore.framework */; };
+		040BC0E41B7CA45D007E58B6 /* dial.png in Resources */ = {isa = PBXBuildFile; fileRef = 040BC0E31B7CA45D007E58B6 /* dial.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 		040BC0CF1B7C755F007E58B6 /* animationTrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationTrialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040BC0D41B7C755F007E58B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040BC0D51B7C755F007E58B6 /* animationTrialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animationTrialTests.m; sourceTree = "<group>"; };
-		040BC0DF1B7C75F2007E58B6 /* dial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dial.png; path = "../../TechHeal/TechHeal 30 July/TechHeal/imgs/dial.png"; sourceTree = "<group>"; };
 		040BC0E11B7C95A1007E58B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		040BC0E31B7CA45D007E58B6 /* dial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dial.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		040BC0BF1B7C755F007E58B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				040BC0DF1B7C75F2007E58B6 /* dial.png */,
+				040BC0E31B7CA45D007E58B6 /* dial.png */,
 				040BC0C01B7C755F007E58B6 /* Info.plist */,
 				040BC0C41B7C755F007E58B6 /* main.m */,
 			);
@@ -200,7 +200,7 @@
 			files = (
 				040BC0C71B7C755F007E58B6 /* Images.xcassets in Resources */,
 				040BC0CA1B7C755F007E58B6 /* MainMenu.xib in Resources */,
-				040BC0E01B7C75F2007E58B6 /* dial.png in Resources */,
+				040BC0E41B7CA45D007E58B6 /* dial.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +409,7 @@
 				040BC0DB1B7C755F007E58B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040BC0DC1B7C755F007E58B6 /* Build configuration list for PBXNativeTarget "animationTrialTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				040BC0DE1B7C755F007E58B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

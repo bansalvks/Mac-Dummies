@@ -26,29 +26,25 @@
 }
 
 
+
+
+// on button press animation will be started
 -(void)buttonPressed:(id)sender{
 
+    // setting the anchor point of the view
     _img.layer.anchorPoint = CGPointMake(0.5f, 0.5f);
     
-    
-    
-    CGPoint localPoint = [_img bounds].origin;
-    CGPoint basePoint = [_img convertPoint:localPoint toView:nil];
-    CGFloat xboundspoint= basePoint.x + (basePoint.x / 2);
-    CGFloat yboundspoint= basePoint.y + (basePoint.y / 2);
-    _img.layer.position = CGPointMake(xboundspoint, yboundspoint);
-    
-    
-    
-    
+    // calling the animation function
     [self startRefreshAnimation];
 }
 
+// in order to repeate the animation
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
     [self startRefreshAnimation];
 }
 
+// the function that will handel all the animation stuff
 -(void)startRefreshAnimation {
     
     CABasicAnimation *anim2 = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
